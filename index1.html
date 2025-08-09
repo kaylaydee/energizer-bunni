@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIG ENERGY Starts Within</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .slide {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            transition: opacity 0.5s ease-in-out;
+        }
+        .slide.active {
+            display: block;
+            opacity: 1;
+        }
+        .slide-content {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            border-radius: 0.75rem;
+        }
+        .nav-button {
+            background-color: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(5px);
+            transition: all 0.2s ease-in-out;
+        }
+        .nav-button:hover {
+            background-color: white;
+            transform: scale(1.05);
+        }
+        .nav-button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 overflow-hidden">
+
+    <div id="presentation-container" class="relative w-screen h-screen">
+        <!-- Slide 1 -->
+        <div id="slide-1" class="slide active" style="background-image: url('https://storage.googleapis.com/gemini-prod/images/1545896d-476c-4a9f-8422-959c53644f12.jpeg');">
+            <div class="flex items-center justify-center w-full h-full p-4 md:p-8">
+                <div class="slide-content w-full max-w-3xl p-6 md:p-10 text-center shadow-2xl">
+                    <h1 class="text-3xl md:text-5xl font-black text-amber-300 mb-4">BIG ENERGY Starts Within</h1>
+                    <h2 class="text-xl md:text-2xl font-bold mb-6">Wellness that Fuels IMPACT</h2>
+                    <ul class="text-left text-lg md:text-xl space-y-4 mx-auto max-w-xl">
+                        <li><strong class="text-amber-300">Theme:</strong> Big Energy, Bigger Impact.</li>
+                        <li><strong class="text-amber-300">Tagline:</strong> “We are not just showing up, we are stepping up.”</li>
+                        <li><strong class="text-amber-300">Hook:</strong> My journey from widowhood and a stroke taught me that my greatest strength came from within. The "Big Energy" I needed to heal wasn't found in a pill or a person—it was found in my own peace.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div id="slide-2" class="slide" style="background-image: url('https://storage.googleapis.com/gemini-prod/images/a444a706-05d6-4e9e-a89e-27038936998b.jpeg');">
+            <div class="flex items-center justify-center w-full h-full p-4 md:p-8">
+                <div class="slide-content w-full max-w-3xl p-6 md:p-10 text-center shadow-2xl">
+                    <h1 class="text-3xl md:text-5xl font-black text-cyan-300 mb-6">Your Peace Promise</h1>
+                    <ul class="text-left text-lg md:text-xl space-y-4 mx-auto max-w-xl">
+                        <li><strong class="text-cyan-300">The Idea:</strong> "In a busy world where life is lifing, taking ownership of my peace was my biggest attack on transformative change in my entire existence."</li>
+                        <li><strong class="text-cyan-300">The Challenge:</strong> Write down one small, actionable Peace Promise you will make to yourself this week.</li>
+                        <li><strong class="text-cyan-300">The Step:</strong> Set an alarm on your phone for that time. "Why not have one person? Because impact begins with the individual first."</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div id="slide-3" class="slide" style="background-image: url('https://storage.googleapis.com/gemini-prod/images/f3265893-9a3d-4c31-9258-293673c09f83.jpeg');">
+            <div class="flex items-center justify-center w-full h-full p-4 md:p-8">
+                <div class="slide-content w-full max-w-3xl p-6 md:p-10 text-center shadow-2xl">
+                    <h1 class="text-3xl md:text-5xl font-black text-lime-300 mb-6">Holding Ourselves Accountable</h1>
+                    <ul class="text-left text-lg md:text-xl space-y-4 mx-auto max-w-xl">
+                        <li><strong class="text-lime-300">Your Action:</strong> Now, you're not just showing up; you're stepping up. We're going to share our Peace Promises in two quick rounds.</li>
+                        <li><strong class="text-lime-300">The Purpose:</strong> This is how we build community and hold ourselves accountable for effectiveness and big impact. A personal promise becomes a shared commitment.</li>
+                        <li><strong class="text-lime-300">Your Quote:</strong> "When it stirs around in your head without any action it becomes a distraction.”</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 4 -->
+        <div id="slide-4" class="slide" style="background-image: url('https://storage.googleapis.com/gemini-prod/images/57b56891-9556-425b-80a5-090c8e030e46.jpeg');">
+            <div class="flex items-center justify-center w-full h-full p-4 md:p-8">
+                <div class="slide-content w-full max-w-3xl p-6 md:p-10 text-center shadow-2xl">
+                    <h1 class="text-3xl md:text-5xl font-black text-rose-300 mb-6">BIG ENERGY, Bigger Impact</h1>
+                     <ul class="text-left text-lg md:text-xl space-y-4 mx-auto max-w-xl">
+                        <li><strong class="text-rose-300">The Power of Small Steps:</strong> Your small Peace Promise is the fuel for your BIG ENERGY.</li>
+                        <li><strong class="text-rose-300">The Bigger Impact:</strong> This internal energy is what allows you to make a bigger impact on the world around you.</li>
+                        <li><strong class="text-rose-300">Quote:</strong> "For where two or three are gathered in my name, there am I among them.” - Matthew 18:20</li>
+                        <li><strong class="text-rose-300">Final Call to Action:</strong> Your Peace Promise is a small act with big power. Take that energy with you and make an impact.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="fixed bottom-5 left-1/2 -translate-x-1/2 flex space-x-4">
+        <button id="prevBtn" class="nav-button text-gray-800 font-bold py-2 px-4 rounded-full shadow-lg flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" /></svg>
+            Prev
+        </button>
+        <button id="nextBtn" class="nav-button text-gray-800 font-bold py-2 px-4 rounded-full shadow-lg flex items-center">
+            Next
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
+        </button>
+    </div>
+
+    <script>
+        // --- Script for Slide Navigation ---
+
+        // Get all the slide elements and navigation buttons
+        const slides = document.querySelectorAll('.slide');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+
+        // Set the starting slide index
+        let currentSlide = 0;
+        const totalSlides = slides.length;
+
+        /**
+         * Updates the display of slides and navigation buttons.
+         * @param {number} newIndex - The index of the slide to show.
+         */
+        function showSlide(newIndex) {
+            // Remove 'active' class from the current slide
+            slides[currentSlide].classList.remove('active');
+            
+            // Add 'active' class to the new slide
+            slides[newIndex].classList.add('active');
+            
+            // Update the current slide index
+            currentSlide = newIndex;
+
+            // Update button states
+            updateNavButtons();
+        }
+
+        /**
+         * Disables or enables navigation buttons based on the current slide index.
+         */
+        function updateNavButtons() {
+            // Disable 'prev' button if on the first slide
+            prevBtn.disabled = currentSlide === 0;
+            // Disable 'next' button if on the last slide
+            nextBtn.disabled = currentSlide === totalSlides - 1;
+        }
+
+        // --- Event Listeners ---
+
+        // Event listener for the 'next' button
+        nextBtn.addEventListener('click', () => {
+            if (currentSlide < totalSlides - 1) {
+                showSlide(currentSlide + 1);
+            }
+        });
+
+        // Event listener for the 'previous' button
+        prevBtn.addEventListener('click', () => {
+            if (currentSlide > 0) {
+                showSlide(currentSlide - 1);
+            }
+        });
+        
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight') {
+                nextBtn.click();
+            } else if (e.key === 'ArrowLeft') {
+                prevBtn.click();
+            }
+        });
+
+        // Initialize the presentation on load
+        window.onload = () => {
+            showSlide(0);
+        };
+    </script>
+
+</body>
+</html>
